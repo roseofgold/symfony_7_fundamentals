@@ -17,5 +17,6 @@ framework:
         app: cache.adapter.array
 
         # Namespaced pools use the above "app" backend by default
-        #pools:
-            #my.dedicated.cache: null
+        pools:
+            iss_location_pool:
+                default_lifetime: 5
